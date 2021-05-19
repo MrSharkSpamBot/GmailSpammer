@@ -50,13 +50,13 @@ try:
     print('For this to work you need to put less secure apps on, on your google account.')
     print('This can be done from the link: https://myaccount.google.com/lesssecureapps.\n')
     print('Please enter your gmail account.')
-    user_gmail = input('\x0c\x0c\x0c> ')
+    user_gmail = input('> ')
     print('Please enter your password.')
-    user_password = input('\x0c\x0c\x0c> ')
+    user_password = input('> ')
     print('Please enter the gmail account you want to spam.')
-    target_gmail = input('\x0c\x0c\x0c> ')
+    target_gmail = input('> ')
     print('Please enter your message.')
-    spam_message = input('\x0c\x0c\x0c> ')
+    spam_message = input('> ')
 
     # Check for valid input.
     while True:
@@ -66,22 +66,22 @@ try:
             break
         if not gmail_regex.search(user_gmail):
             print('Please enter your gmail account.(make sure it is valid!!!)')
-            user_gmail = input('\x0c\x0c\x0c> ')
+            user_gmail = input('> ')
         if not gmail_regex.search(target_gmail):
             print('Please enter the gmail account you want to spam.(make sure it is valid!!!)')
-            target_gmail = input('\x0c\x0c\x0c> ')
+            target_gmail = input('> ')
 
     while True:
         if PASSWORD_MAX >= len(user_password) >= PASSWORD_MIN and not user_password.isspace():
             break
         print('Please enter your password.(make sure it is valid!!!)')
-        user_password = input('\x0c\x0c\x0c> ')
+        user_password = input('> ')
 
     while True:
         if spam_message and not spam_message.isspace():
             break
         print('Please enter a valid message.')
-        spam_message = input('\x0c\x0c\x0c> ')
+        spam_message = input('> ')
 
 except KeyboardInterrupt:
     print('\n[+] Ctrl + c detected.')
