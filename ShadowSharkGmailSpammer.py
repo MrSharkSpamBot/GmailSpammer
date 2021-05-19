@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-This code is a gmail spammer
+A full fledged gmail spamming tool.
 
 @author: Mr. Shark Spam Bot
 '''
