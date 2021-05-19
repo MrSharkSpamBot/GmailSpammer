@@ -1,5 +1,9 @@
-#! python3
-'''This code is a gmail spammer. Created by Mr. Shark Spam Bot'''
+# -*- coding: utf-8 -*-
+'''
+This code is a gmail spammer
+
+@author: Mr. Shark Spam Bot
+'''
 import smtplib
 import re
 import sys
