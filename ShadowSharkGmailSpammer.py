@@ -84,7 +84,7 @@ try:
     while True:
         if spam_message and not spam_message.isspace():
             break
-        print('Please enter a valid message.')
+        print('Please enter your message.(make sure it is valid!!!)')
         spam_message = input('> ')
 
 except KeyboardInterrupt:
