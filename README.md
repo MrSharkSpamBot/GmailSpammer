@@ -5,12 +5,12 @@ A full fledged gmail spamming tool written in pure python3.
 ### Debian
 ```
 $ sudo apt-get install python3 git
-$ git clone https://github.com/MrSharkSpamBot/Shadow-Shark-Gmail-Spammer.git
+$ git clone https://github.com/MrSharkSpamBot/ShadowSharkGmailSpammer.git
 ```
 ### Arch
 ```
 $ sudo pacman -S python git
-$ git clone https://github.com/MrSharkSpamBot/Shadow-Shark-Gmail-Spammer.git
+$ git clone https://github.com/MrSharkSpamBot/ShadowSharkGmailSpammer.git
 ```
 
 ## Usage
