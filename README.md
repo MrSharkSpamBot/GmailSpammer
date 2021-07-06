@@ -1,21 +1,21 @@
-# Shadow Shark Gmail Spammer
+# Gmail Spammer
 A full fledged gmail spamming tool written in pure python3.
 
 ## Installation
 ### Debian
 ```
 $ sudo apt-get install python3 git
-$ git clone https://github.com/MrSharkSpamBot/ShadowSharkGmailSpammer.git
+$ git clone https://github.com/MrSharkSpamBot/GmailSpammer.git
 ```
 ### Arch
 ```
 $ sudo pacman -S python git
-$ git clone https://github.com/MrSharkSpamBot/ShadowSharkGmailSpammer.git
+$ git clone https://github.com/MrSharkSpamBot/GmailSpammer.git
 ```
 
 ## Usage
 ```
-$ python3 ShadowSharkGmailSpammer.py
+$ python3 GmailSpammer.py
 
         ░██████╗██╗░░██╗░█████╗░██████╗░░█████╗░░██╗░░░░░░░██╗
         ██╔════╝██║░░██║██╔══██╗██╔══██╗██╔══██╗░██║░░██╗░░██║
