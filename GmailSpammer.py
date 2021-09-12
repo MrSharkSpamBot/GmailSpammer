@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-'''
+"""
 A full fledged gmail spamming tool.
 
 @author: Mr. Shark Spam Bot
-'''
+"""
 import smtplib
 import re
 import sys
